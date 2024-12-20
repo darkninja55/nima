@@ -1,0 +1,220 @@
+@font-face {
+    font-display: swap;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./fonts/Rubik-Regular.woff2") format("woff2"),
+        url("./fonts/Rubik-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    src: url("./fonts/Rubik-Medium.woff2") format("woff2"),
+        url("./fonts/Rubik-Medium.woff") format("woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+body {
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 500;
+}
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-top {
+    background-color: #f6f6f6;
+    padding: 30px 0px;
+}
+
+.hero-top-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-top-left {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.link-logo {
+    text-decoration: none;
+}
+
+.header-prices {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.header-price {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+}
+
+.valyuta {
+    color: rgb(41, 89, 206);
+}
+
+.header-top-right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.header-search {
+    padding: 13px 15px;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+}
+
+.header-languages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 3px;
+    background-color: #dce6ff;
+    border-radius: 39px;
+    gap: 8px;
+}
+
+.language {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.41px;
+}
+
+.language-uzb {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    opacity: 50%;
+}
+
+.language-rus {
+    padding-right: 10px;
+
+}
+
+.sign-up {
+    padding: 13px 20px;
+    color: white;
+    background-color: #7296ec;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    line-height: 18.96px;
+    text-decoration: none;
+}
+
+.header-nav {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.header-link {
+    font-size: 18px;
+    line-height: 21.33px;
+    color: #7f7f7f;
+    text-decoration: none;
+}
+.form-title{
+font-size: 24px;
+font-weight: 500;
+line-height: 28.44px;
+
+
+}
+form{
+    display: flex;
+    width: 696px;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    flex-grow: 1;
+    height: 55px;
+    border-radius: 10px;
+    border-color:1px solid #d1d1d1;
+    outline: none;
+}
+.name-phone{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+textarea{
+    border-radius: 10px;
+}
+.form-contacts{
+font-size: 20px;
+font-weight: 500;
+line-height: 23.7px;
+
+}
+.actual{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+.contacts-wrapper{
+    display: flex;
+    gap: 10px;
+}
+.contact-form-right{
+    
+    background-color: #d1d1d1;
+    width: 491px;
+    padding: 25px 40px;
+}
+.our-contacts-list{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contacts-item{
+    display: flex;
+    flex-direction:column ;
+    border-bottom:1px solid #7f7f7f ;
+    gap:10px;
+
+}
