@@ -161,7 +161,8 @@ body {
 font-size: 24px;
 font-weight: 500;
 line-height: 28.44px;
-
+padding-top: 60px;
+margin-bottom: 20px;
 
 }
 form{
@@ -171,6 +172,11 @@ form{
     gap: 10px;
 }
 input{
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+
     flex-grow: 1;
     height: 55px;
     border-radius: 10px;
@@ -198,18 +204,24 @@ line-height: 23.7px;
 }
 .contacts-wrapper{
     display: flex;
+    flex-direction: row;
     gap: 10px;
+    align-items: flex-start;
 }
 .contact-form-right{
-    
-    background-color: #d1d1d1;
+    border: 1px solid #d2d2d2;
+    background-color: #f6f6f6;
     width: 491px;
     padding: 25px 40px;
+    border-radius: 10px;
+  
 }
 .our-contacts-list{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    border-radius: 10px;
+
 }
 .contacts-item{
     display: flex;
@@ -217,4 +229,111 @@ line-height: 23.7px;
     border-bottom:1px solid #7f7f7f ;
     gap:10px;
 
+}
+
+
+textarea{
+    padding: 18px 20px;
+}
+.submit-box{
+    display: flex;
+    justify-content: flex-end;
+}
+.submit-button{
+    margin-top: 20px;
+font-size: 16px;
+font-weight: 500;
+line-height: 18.96px;
+padding: 17px 30px;
+background-color:#7297EF;
+border-radius: 10px;
+border: none;
+color: white;
+text-align: end;
+}
+.site-footer{
+    background-color: #7297EF;
+    margin-top: 100px;
+}
+.footer-container{
+    width:958px;
+    margin: 0 auto;
+    padding:0 20px;
+    
+}
+.footer-list{
+    list-style-type: none;
+}
+.footer-logo{
+    font-family: Rubik;
+font-size: 24px;
+font-weight: 700;
+line-height: 28.44px;
+text-align: left;
+text-decoration: none;
+color:white;
+
+}
+.footer-title{
+    padding-top:40px;
+    margin-bottom:15px;
+}
+.footer-info{
+    width:239px;
+    font-family: Rubik;
+font-size: 12px;
+font-weight: 400;
+line-height: 19px;
+text-align: left;
+
+color:white;
+
+}
+.footer-wrapper{
+    display:flex;
+    justify-content:space-between;
+    border-bottom: #CECECE  1px solid;
+   
+}
+.footer-lists{
+    width:491px;
+    display:flex;
+    justify-content:space-between;
+    list-style-type: none;
+ 
+}
+.footer-list-item{
+    margin-bottom: 20px;
+}
+.footer-list-team{
+    list-style-type: none;
+   margin-bottom:20px;
+}
+
+.footer-list-link{
+    color:white;
+    text-decoration: none;
+}
+
+
+
+.footer-bottom-wrapper{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom-title{
+    color:#fff;
+font-size: 18px;
+font-weight: 500;
+line-height: 23px;
+}
+.footer-logos{
+    list-style-type: none;
+    gap:25px;
+    
+}
+.logos-item{
+    margin-left:25px;
+    display: inline-block;
 }
